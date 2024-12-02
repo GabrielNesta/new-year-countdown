@@ -21,3 +21,28 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.25rem;
 }
+
+.year {
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.countdown {
+  margin: 1.9rem;
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 7.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown div {
+  margin: 0 0.9rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-top: -1.56rem;
+  position: relative;
+  text-align: center;
+  width: 6.25rem;
+}
