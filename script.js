@@ -8,3 +8,15 @@ function getNewYearTime() {
   const nextYear = currentYear + 1;
   return new Date(`Jan 1, ${nextYear} 00:00:00`).getTime();
 }
+
+let newYearTime = getNewYearTime();
+updateCountdown();
+
+function updateCountdown() {
+  const now = new Date().getTime();
+  const gap = newYearTime - now;
+
+  if (gap <= 0) {
+    newYearTime = getNewYearTime();
+  }
+}
