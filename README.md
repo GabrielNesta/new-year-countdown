@@ -16,3 +16,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Contributing
 
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request.
+
+## Demo
+
+Try live demo: https://starck27.github.io/new-year-countdown/
